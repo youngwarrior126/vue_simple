@@ -1,0 +1,25 @@
+[2019-08-12 19:07:15] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:167)
+[stacktrace]
+#0 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(488): Illuminate\\Log\\LogManager->driver()
+#3 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(114): Illuminate\\Log\\LogManager->error('Undefined const...', Array)
+#4 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/app/Exceptions/Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/server.php(21): require_once('/Volumes/WorkSt...')
+#9 {main}
+"} 
+[2019-08-12 19:07:15] laravel.ERROR: Undefined constant 'Illuminate\Html\FormFacade' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Undefined constant 'Illuminate\\Html\\FormFacade' at /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/config/app.php:224)
+[stacktrace]
+#0 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#6 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Volumes/WorkStation/first-bangladesh/laravel/Lead_Management/server.php(21): require_once('/Volumes/WorkSt...')
+#8 {main}
+"} 
